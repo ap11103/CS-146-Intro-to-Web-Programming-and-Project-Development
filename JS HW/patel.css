@@ -1,0 +1,183 @@
+title{
+    background-color: lightgray;
+}
+body{
+    height: 85%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin: auto;
+    align-items: left; 
+    background-color: lightgray; 
+}
+
+table{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1.2px solid black;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    
+    
+}
+
+
+
+.background_classlist{
+    background-color: lightgray;
+    
+
+}
+
+
+
+#MA122{
+    background-color: lightgray;
+    
+}
+
+#MA122R{
+    background-color: lightgray;
+}
+
+#CAL103{
+    background-color: lightgray;
+}
+#PEPR{
+    background-color: lightgray;
+}
+
+#CS115{
+    background-color: lightgray;
+}
+
+#CS146{
+    background-color: lightgray;
+}
+
+#PEP111{
+    background-color: lightgray;
+}
+#CS115lab{
+    background-color: lightgray;
+}
+
+
+
+
+.MA122Rshow{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+    width: 100%;
+    height: 100%;
+}
+
+
+.MA122show{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+}
+
+.CS115labshow{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    width: 100%;
+    height: 100%;
+}
+
+
+.PEPRshow{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+    width: 100%;
+    height: 100%;
+}
+
+
+.CAL103show{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    width: 100%;
+    height:100%
+   
+}
+
+
+.CS115show{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    width: 100%;
+    height:100%;
+}
+
+.CS146show{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    width: 100%;
+    height: 100%;
+}
+
+
+.PEP111show{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+

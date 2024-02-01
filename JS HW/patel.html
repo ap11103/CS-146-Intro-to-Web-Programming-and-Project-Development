@@ -1,0 +1,203 @@
+<!--
+    Alisha Patel
+    I pledge my honor that I have abided by the Stevens Honor System.
+-->
+
+<!DOCTYPE html>
+<head>
+    <title>Alisha's Schedule</title>
+
+    <div>
+        <link href="patel.css" type="text/css" rel="stylesheet">
+    </div> 
+       
+</head>
+
+<body>
+
+    <h1>
+        Alisha's Schedule 
+    </h1>
+    <h2>
+        Classes:
+    </h2>
+    <div> 
+<!--Classes List-->
+        <ol>
+            <li>
+                <div class="section" id="MA122">
+                    <input type="checkbox" id="MA122checkbox">
+                    <input type="color" value="#e76f51" id="MA122cp">
+                    MA122
+                </div>
+            </li>
+            <li>
+                <div class="section" id="MA122R">
+                    <input type="checkbox" id="MA122Rcheckbox">
+                    <input type="color" value="#e76f51" id="MA122Rcp">
+                    MA122 Recitation
+                </div>
+            </li>
+            <li>
+                <div class="section" id="CS115">
+                    <input type="checkbox" id="CS115checkbox">
+                    <input type="color" value="#e76f51" id="CS115cp">
+                    CS115
+                </div>
+            </li>
+            <li>
+                <div class="section" id="CS115lab">
+                    <input type="checkbox" id="CS115labcheckbox">
+                    <input type="color" value="#e76f51" id="CS115labcp">
+                    CS115 Lab
+                </div>
+            </li>
+            <li>
+                <div class="section" id="PEP111">
+                    <input type="checkbox" id="PEP111checkbox">
+                    <input type="color" value="#e76f51" id="PEP111cp">
+                    PEP 111
+                </div>
+            </li>
+            <li>
+                <div class="section" id="PEPR">
+                    <input type="checkbox" id="PEPRcheckbox">
+                    <input type="color" value="#e76f51" id="PEPRcp">
+                    PEP111 Recitation
+                </div>
+            </li>
+            <li>
+                <div class="section" id="CAL103">
+                    <input type="checkbox" id="CAL103checkbox">
+                    <input type="color" value="#e76f51" id="CAL103cp">
+                    CAL103
+                </div>
+            </li>
+            <li>
+                <div class="section" id="CS146">
+                    <input type="checkbox" id="CS146checkbox">
+                    <input type="color" value="#e76f51" id="CS146cp">
+                    CS146
+                </div>
+            </li>
+    
+        </ol>
+    </div>
+
+    <div>
+<!--Table for actual schedule-->
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+
+            </tr>
+            <tr>
+                <td>8:00 - 10:00</td>
+                <td></td>
+                <td><div><p class="PEPRshow" id="PEPRblock">PEP111 Recitation</p></div></td>
+                <td></td>
+                <td></td>
+                <td></td>   
+            </tr>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td><p class="MA122show" id="MA122monblock">MA122</p></td>
+                <td></td>
+                <td><p class="MA122show" id="MA122wedblock">MA122</p></td>
+                <td></td>
+                <td><p class="MA122show" id="MA122friblock">MA122</p></td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td><p class="CS115show" id="CS115monblock">CS115</p></td>
+                <td></td>
+                <td><p class="CS115show" id="CS115wedblock">CS115</p></td>
+                <td></td>
+                <td><p class="CS115show" id="CS115friblock">CS115</p></td>
+            </tr>
+            <tr>
+                <td>10:00 - 12:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><p class="CS115labshow" id="CS115labblock">CS115 Lab</p></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>12:00 - 1:00</td>
+                <td><p class="PEP111show" id="PEP111monblock">PEP111</p></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><p class="PEP111show" id="PEP111friblock">PEP111</p></td>
+            </tr>
+            <tr>
+                <td>1:00 - 2:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2:00 - 3:00</td>
+                <td><p class="CAL103show" id="CAL103monblock">CAL103</p></td> 
+                <td><p class="MA122Rshow" id="MA122Rblock">MA122 Recitation</p></td>
+                <td><p class="CAL103show" id="CAL103wedblock">CAL103</p></td>
+                <td></td>
+                <td><p class="CAL103show" id="CAL103friblock">CAL103</p></td>
+            </tr>
+
+            <tr>
+                <td>3:00 - 4:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>3:30 - 4:45</td>
+                <td></td>
+                <td><p class="CS146show" id="CS146tuesblock">CS146</p></td>
+                <td></td>
+                <td><p class="CS146show" id="CS146thurblock">CS146</p></td>
+                <td></td>
+            </tr>
+
+            
+            <tr>
+                <td>5:00 - 6:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+            </tr>
+
+            <tr>
+                <td>6:00 - 7:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> 
+            </tr>
+
+        </table>
+    </div>
+    
+</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="patel.js"></script>
+
+
+
+
+
