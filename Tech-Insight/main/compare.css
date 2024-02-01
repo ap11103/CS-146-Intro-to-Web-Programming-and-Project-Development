@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+.compare{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202124;
+}
+
+h1,h2 {
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: white;
+}
+
+.classes{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.classes .class{
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Laptop{
+    background-color: #bb86fc;
+    color: black;
+}
+
+#Phone{
+    background-color: #bb86fc;
+    color: black;
+}
+
+#Tablet{
+    background-color: #bb86fc;
+    color: black;
+}
+
+/*table */
+.table{
+    background: #313235;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.days{
+    display: flex;
+}
+
+.corner{
+    width: 200px;
+    height: 70px;
+    margin: 2px;
+}
+
+.day{
+    width: 200px;
+    border: solid 1px white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.time_frame{
+    display: flex;
+}
+
+.info_first{
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+    background-color: #03dac5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.info{
+    background-color: white;
+    height: 70px;
+    width: 200px;
+    margin: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+/*product name*/
+.product_name{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    margin: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.product_name_first{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #03dac5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+img{
+    width: 203.5px;
+    height: 150px;
+}
